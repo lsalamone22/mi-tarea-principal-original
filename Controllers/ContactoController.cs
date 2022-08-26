@@ -25,7 +25,7 @@ namespace webapp.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(Contacto objContacto)
+        public IActionResult Generar(Contacto objContacto)
         {
             ViewData["Message"] ="Se registro satisfactoriamente";
             return View("Index");
